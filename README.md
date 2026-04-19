@@ -31,6 +31,24 @@ A local AI chatbot built using **Spring Boot + Spring AI + Ollama**, with suppor
 - MCP Client → MCP Server (tools/APIs)
 
 ---
+## 🧪 API
+
+| Endpoint | Description |
+|--------|------------|
+| `/chat?message=hello` | Chat with AI |
+
+---
+## ▶️ Run Application
+
+### 1. Start Ollama
+
+```bash
+ollama run llama3
+```
+### 2. Run Spring Boot
+![Application run](https://github.com/user-attachments/assets/911eaa60-b7cf-487d-841f-1a3222db972c)
+
+---
 
 ## 📊 Access
 Service	URL
